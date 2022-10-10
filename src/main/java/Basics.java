@@ -43,7 +43,7 @@ public class Basics {
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
-        System.out.println("Hello World");
+        System.out.println("Hello World!");
 
 
 
@@ -152,7 +152,7 @@ public class Basics {
         String[] split = to_split.split(" ");
 
         for (String s : split) {
-            ret.append(s);
+            ret.append(s.charAt(0));
         }
 
         return ret.toString();
